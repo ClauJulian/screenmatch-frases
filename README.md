@@ -10,9 +10,13 @@ https://github.com/ClauJulian/screenmatch-frases.git
 3 - Abrir el proyecto en el IDE y realizar el primer Run para crear la tabla en la Base de Datos.
 4 - Ir a Postgres, buscar la tabla "frases" e inyectar los siguientes datos a modo de ejemplo:
 
+********
+
 insert into frases(id, frase, personaje, titulo, poster) values (1, 'Amigos no mienten', 'Eleven', 'Stranger things', 'https://m.media-amazon.com/images/M/MV5BMDZkYmVhNjMtNWU4MC00MDQxLWE3MjYtZGMzZWI1ZjhlOWJmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg');
 insert into frases(id, frase, personaje, titulo, poster) values (8, '¡Que la fuerza te acompañe!', 'Obi Wan Kenobi', 'Star Wars', 'https://m.media-amazon.com/images/M/MV5BOTA5NjhiOTAtZWM0ZC00MWNhLThiMzEtZDFkOTk2OTU1ZDJkXkEyXkFqcGdeQXVyMTA4NDI1NTQx._V1_SX300.jpg');
 insert into frases(id, frase, personaje, titulo, poster) values (9, 'Me salvaste de todas las formas que alguien puede ser salvado.', 'Rose Dawson', 'Titanic', 'https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg');
+
+********
 
 5 - Crear una carpeta en repositorio local y clonar el proyecto Front-End para poder visualizar la aplicación:
 https://github.com/alura-es-cursos/2086-java-desafio-front.git
